@@ -1,6 +1,7 @@
 package com.github.sdirkse;
 
 import org.junit.jupiter.api.Test;
+import com.github.sdirkse.utils.FileResourceUtil;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
