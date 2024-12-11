@@ -1,7 +1,7 @@
 package com.github.sdirkse;
 
-import org.junit.jupiter.api.Test;
 import com.github.sdirkse.utils.FileResourceUtil;
+import org.junit.jupiter.api.Test;
 
 import java.math.BigInteger;
 
@@ -17,7 +17,7 @@ class Day7Test {
     void testPartOne() {
         BigInteger result = riddle.partOne(input);
 
-        assertEquals(BigInteger.valueOf(Long.parseLong("4122618559853")), result);
+        assertEquals(BigInteger.valueOf(4122618559853L), result);
     }
 
     @Test
@@ -43,7 +43,7 @@ class Day7Test {
     void testPartTwo() {
         BigInteger result = riddle.partTwo(input);
 
-        assertEquals(BigInteger.valueOf(Long.parseLong("227615740238334")), result);
+        assertEquals(BigInteger.valueOf(227615740238334L), result);
     }
 
     @Test

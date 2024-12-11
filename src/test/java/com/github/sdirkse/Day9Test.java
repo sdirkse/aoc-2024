@@ -1,7 +1,7 @@
 package com.github.sdirkse;
 
-import org.junit.jupiter.api.Test;
 import com.github.sdirkse.utils.FileResourceUtil;
+import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -15,7 +15,7 @@ class Day9Test {
     void testPartOne() {
         long result = riddle.partOne(input);
 
-        assertEquals(Long.parseLong("6346871685398"), result);
+        assertEquals(6346871685398L, result);
     }
 
     @Test
@@ -33,7 +33,7 @@ class Day9Test {
     void testPartTwo() {
         long result = riddle.partTwo(input);
 
-        assertEquals(Long.parseLong("6373055193464"), result);
+        assertEquals(6373055193464L, result);
     }
 
     @Test
